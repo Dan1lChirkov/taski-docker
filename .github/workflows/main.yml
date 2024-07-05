@@ -169,19 +169,95 @@ jobs:
         uses: appleboy/scp-action@master
       # Передаём параметры для action appleboy/scp-action:
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USER }}
-          key: ${{ secrets.SSH_KEY }}
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
+          host: "158.160.16.110"
+          username: yc-user
+          key: -----BEGIN OPENSSH PRIVATE KEY-----
+            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
+            -----END OPENSSH PRIVATE KEY-----            
+          passphrase: JlOv3bJ-5z
           source: "docker-compose.production.yml"
           target: "taski"
       - name: Executing remote ssh commands to deploy
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USER }}
-          key: ${{ secrets.SSH_KEY }}
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
+          host: "158.160.16.110"
+          username: yc-user
+          key: -----BEGIN OPENSSH PRIVATE KEY-----
+            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
+            -----END OPENSSH PRIVATE KEY-----
+          passphrase: JlOv3bJ-5z
           # Параметр script передаёт в action appleboy/ssh-action команды,
           # которые нужно выполнить на сервере, 
           # с которым установлено соединение
